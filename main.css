@@ -51,15 +51,8 @@ table {
 
 /*End of CSS reset */
 
-.pull-right {
-	float: right;
-}
 
-.google {
-	height: 90px;
-	width: 260px;
-}
-
+/*Elements*/
 
 ul {
 	margin: 0;
@@ -85,6 +78,10 @@ input {
 }
 
 
+/*End of Elements*/
+
+/*Header */
+
 .links {
 	color: black;
 	margin-top: 7px;
@@ -93,12 +90,48 @@ input {
 	font-family: arial;
 }
 
-.back {
-	margin-right: 15px;
+.share {
+	background-color: lightgray;
+	padding: 5px;
+}
+
+nav li a {
+	vertical-align: middle;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+#square a {
+	background: url("squares.png") 15px 15px no-repeat;
+}
+
+#bell a {
+	background: url("bell.png") 15px 15px no-repeat;
+}
+
+#profile a {
+	background: url("mike-adeleke.jpg") 15px 15px no-repeat;
+}
+
+/*End of Header*/
+
+
+/*Body*/
+
+.pull-right {
+	float: right;
+}
+
+.google {
+	height: 90px;
+	width: 260px;
+}
+
+
+.back {
+	margin-right: 15px;
 }
 
 #container {
@@ -109,26 +142,39 @@ a:hover {
 	padding-top: 150px;
 }
 
+button {
+	padding: 5px;
+	margin-top: 10px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #FFFFF0;
+	border: 1px solid lightgray;
+}
+
+/*End of Body*/
+
+
+/*Footer*/
+
+
 footer {
    position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:20px;
    width:100%;
    background: #FFFFF0;
-   padding: 5px;
+   padding: 0 0 30px 0;
 }
 
 footer li a {
 	color: gray;
-	font-weight: bold;
-	font-size: 12px;
+	font-size: 13px;
+	padding-bottom: 20px;
+	font-family: arial;
 }
 
-button {
-	padding: 5px;
-	margin-top: 10px;
-}
 
 .floatleft {
 	float: left;
@@ -148,15 +194,8 @@ span {
 	margin-top: 50px;
 }
 
-.share {
-	background-color: lightgray;
-	padding: 5px;
-}
 
-
-
-
-
+/*End of Footer*/
 
 
 
