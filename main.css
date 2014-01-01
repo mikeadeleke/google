@@ -82,17 +82,28 @@ input {
 
 /*Header */
 
+.pull-right {
+	float: right;
+	margin: 20px 30px 0 0;
+}
+
 .links {
 	color: black;
-	margin-top: 7px;
-	margin-right: 3px;
-	font-size: 12px;
+	font-size: 13px;
 	font-family: arial;
 }
 
-.share {
-	background-color: lightgray;
-	padding: 5px;
+#share {
+	background-color: #F0F0F0  ;
+	color: black;
+	padding: 7px 10px;
+	font-size: 13px;
+	font-family: arial;
+	text-decoration: none;
+}
+
+#share:hover {
+	background-color: #E0E0E0 ;
 }
 
 nav li a {
@@ -105,14 +116,24 @@ a:hover {
 
 #square a {
 	background: url("squares.png") 15px 15px no-repeat;
+	background-position: -431px -243px;
+	background-size: 536px 341px;
+	opacity: .55;
+	height: 30px;
+	width: 30px;
+	margin: 10px;
 }
 
 #bell a {
 	background: url("bell.png") 15px 15px no-repeat;
+	height: 30px;
+	width: 30px;
 }
 
 #profile a {
 	background: url("mike-adeleke.jpg") 15px 15px no-repeat;
+	height: 30px;
+	width: 30px;
 }
 
 /*End of Header*/
@@ -120,18 +141,11 @@ a:hover {
 
 /*Body*/
 
-.pull-right {
-	float: right;
-}
+
 
 .google {
 	height: 90px;
 	width: 260px;
-}
-
-
-.back {
-	margin-right: 15px;
 }
 
 #container {
