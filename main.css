@@ -114,7 +114,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-#square a {
+#square {
 	background: url("squares.png") 15px 15px no-repeat;
 	background-position: -431px -243px;
 	background-size: 536px 341px;
@@ -124,13 +124,13 @@ a:hover {
 	margin: 10px;
 }
 
-#bell a {
+#bell {
 	background: url("bell.png") 15px 15px no-repeat;
 	height: 30px;
 	width: 30px;
 }
 
-#profile a {
+#profile {
 	background: url("mike-adeleke.jpg") 15px 15px no-repeat;
 	height: 30px;
 	width: 30px;
